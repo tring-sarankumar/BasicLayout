@@ -12,11 +12,11 @@ body{
     font-family: 'Golos Text', sans-serif;
     padding-left: 1rem;
 }
+
 .nav__heading{
     display: flex;
     padding-left: 2rem;
     font-family: 'Golos Text', sans-serif;
-  
 }
 
 .nav__heading h2{
@@ -24,8 +24,7 @@ body{
     background-color: #fff;
     padding: 0.5rem;
     border-radius: 7px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
 }
 .nav__elements ul{
     display: flex;
@@ -34,19 +33,17 @@ body{
     color: #272D37;
     padding-right: 6rem;  
 }
-.nav__elements ul li{  
-    padding: 0 10px;
-    font-size:x-large;
-    
 
+.nav__elements ul li{  
+    padding: 0 1rem;
+    font-size:x-large;
 }
+
 .nav__btn{
     display: flex;
     padding-right: 1rem;
-
-    
-
 }
+
 .nav__btn--primary{
     padding-right: 1rem;
     
@@ -63,10 +60,9 @@ body{
     border: none;
     background-color: #437EF7;
     color: #ffffff;
-    padding: 5px;
+    padding: 0.4rem;
     border-radius: 7px;
     cursor: pointer;
-
 }
 a{
     text-decoration: none;
@@ -89,16 +85,16 @@ a:hover {
 
 .content__head{
     font-weight: 700;
-font-size: 52px;
-text-align: center;
-color: #272D37;
+    font-size: 52px;
+    text-align: center;
+    color: #272D37;
 
 }
 .content__details{
     color: #5F6D7E;
     font-weight: 400;
-font-size: 18px;
-line-height: 26px;
+    font-size: 18px;
+    line-height: 26px;
 
 text-align: center;
 }
@@ -113,23 +109,19 @@ text-align: center;
     border: none;
     background-color: #437EF7;
     color: #ffffff;
-    padding: 5px;
+    padding: 0.4rem;
     border-radius: 5px;
     cursor: pointer;
-    margin: 0 1em;
-    
-    
+    margin: 0 1em; 
 }
 
 .content__btn--secondary button{
     border: none;
     background-color: #DAE0E6;
     margin:0 1em;
-    padding: 5px;
+    padding: 0.4rem;
     border-radius: 5px;
-    cursor: pointer;
-
-  
+    cursor: pointer; 
 }
 .img{
     text-align: center;
